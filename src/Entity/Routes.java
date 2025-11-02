@@ -1,22 +1,11 @@
 package Entity;
 
 public class Routes {
-    private int from;
-    private int to;
+    private City from;
+    private City to;
 
-    public int getFrom() {
-        return from;
-    }
-
-    public void setFrom(int from) {
+    public Routes(City from, City to) {
         this.from = from;
-    }
-
-    public int getTo() {
-        return to;
-    }
-
-    public void setTo(int to) {
         this.to = to;
     }
 

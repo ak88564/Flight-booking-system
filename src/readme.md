@@ -18,3 +18,10 @@ Important notes provided:
 - Code should be modular and extensible
 - AI assistance was not allowed
 - Internet could be used only for syntax reference
+
+
+
+Things that are left out:
+- Booking details are not getting saved in the storage
+- sorting left out
+- search flights are left out

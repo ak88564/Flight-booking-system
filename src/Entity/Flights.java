@@ -1,8 +1,15 @@
 package Entity;
 
+import java.util.UUID;
+
 public class Flights {
     private String flightName;
-    private int flightNumber;
+    private String flightNumber;
+
+    public Flights(String flightName) {
+        this.flightName = flightName;
+        this.flightNumber = UUID.randomUUID().toString().substring(0, 7);
+    }
 
     public String getFlightName() {
         return flightName;
@@ -12,11 +19,11 @@ public class Flights {
         this.flightName = flightName;
     }
 
-    public int getFlightNumber() {
+    public String getFlightNumber() {
         return flightNumber;
     }
 
-    public void setFlightNumber(int flightNumber) {
+    public void setFlightNumber(String flightNumber) {
         this.flightNumber = flightNumber;
     }
 
